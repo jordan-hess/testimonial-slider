@@ -1,0 +1,57 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonials {
+  padding: 50px 50px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 1px transparent;
+  width: 500px;
+  margin: 120px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#item-image {
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.owl-carousel {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .testimonials {
+    grid-template: 10% 1fr;
+  }
+}
